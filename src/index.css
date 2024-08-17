@@ -1,0 +1,59 @@
+
+.card {
+  border: 1px solid hsla(216, 100%, 58%, 0.1);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.083);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.user-online {
+  background-color: hsla(216, 100%, 58%, 0.149);
+}
+
+.user-offline {
+  background-color: hsla(0, 100%, 58%, 0.149);
+}
+
+.card img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 40%);
+}
+
+Header {
+  text-align: center;
+}
+
+Header ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+Header ul li {
+  display: inline;
+  margin: 10px;
+}
+
+Header a {
+  text-decoration: none;
+}
+
+Footer {
+  text-align: center;
+}
